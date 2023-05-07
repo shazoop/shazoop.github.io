@@ -4,6 +4,8 @@ main:
      url: /
    - title: "Publications"
      url: /publications/
+   - title: "Teaching"
+     url: /teaching/
    - title: "CV"
      url: /assets/QiuFrankResume_website.pdf
   # - title: "Sample Collections"

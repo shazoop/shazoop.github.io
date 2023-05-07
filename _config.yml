@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Frank Qiu"
   avatar           : "/assets/pfp.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I'll be finishing my Ph.D. in Statistics at UC Berkeley this May, where I was advised by Professors Giles Hooker and Bruno Olshausen. During my Ph.D., I broadly worked on encoding data in interesting ways, such as graph embeddings to disentangled representation learning."
+  bio              : ""
   location         : "El Cerrito, Berkeley"
   email            : "frankyuchen1994@gmail.com"
   links:

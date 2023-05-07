@@ -4,19 +4,29 @@ layout: archive
 
 {{ content }}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<!-- <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3> -->
 
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
+<!-- {% if paginator %} -->
+  <!-- {% assign posts = paginator.posts %} -->
+<!-- {% else %} -->
+  <!-- {% assign posts = site.posts %} -->
+<!-- {% endif %} -->
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
-  {% endfor %}
-</div>
+<!-- {% assign entries_layout = page.entries_layout | default: 'list' %} -->
+<!-- <div class="entries-{{ entries_layout }}"> -->
+  <!-- {% for post in posts %} -->
+    <!-- {% include archive-single.html type=entries_layout %} -->
+  <!-- {% endfor %} -->
+<!-- </div> -->
 
-{% include paginator.html %}
+<!-- {% include paginator.html %} -->
+
+<section class="home-section about-me">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>I recently completed my Ph.D. at the Department of Statistics at UC Berkeley, where I was advised by Professors <a href="http://gileshooker.com/" style="text-decoration: none;">Giles Hooker</a> and <a href="http://www.rctn.org/bruno/" style="text-decoration: none;">Bruno Olshausen</a>. During my Ph.D., I broadly worked on informative and compact data representations, such as graph embeddings and disentangled representation learning. Before that, I completed my B.S. in Mathematics and B.S. in Neuroscience at UC San Diego, completeing my honors thesis on the genetics of bipolar disorder under Professors <a href="https://profiles.ucsd.edu/tiffany.greenwood" style="text-decoration: none;">Tiffany Greenwood</a> and <a href="https://profiles.ucsd.edu/john.kelsoe" style="text-decoration: none;">John Kelsoe</a>.
+	
+	<p>In my free time, I enjoy reading fiction (all kinds!), cooking, and playing video games. One day I hope to combine all three and make a visual novel about the mishaps of an aspiring chef.</p>
+  </div>
+</section>
+
